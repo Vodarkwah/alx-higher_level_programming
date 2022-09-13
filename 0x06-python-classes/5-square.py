@@ -4,11 +4,10 @@ This module defines a Square class
 checks for exceptions and instantiates the class
 """
 
-
 class Square:
     """Square class
     """
-    def __init__(self, size=0):
+    def __init__(self, size = 0):
         self.__size = size
 
     @property
